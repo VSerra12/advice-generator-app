@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.color {
+    color: hsl(217, 19%, 38%);
+    color: hsl(217, 19%, 24%);
+    color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    color: hsl(150, 100%, 66%);
+}
+
+body {
+    position: relative;
+    scroll-behavior: auto;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+}
+
+#advice {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+#advice-id {
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 5%;
+
+}
+
+#advice-text {
+    padding: 5%;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+#divider{
+    padding: 0px 0px 20px;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    padding: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px hsl(150, 100%, 66%);
+    box-shadow: 0 0px 25px 0 hsl(150, 100%, 66%);
+}
+
+button>img {
+    padding: 15px;
+}
